@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06890B6E9904FBFA31B869A9 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1EECF19C36BAE4B1B0D1C8 /* PasswordGenerator.swift */; };
+		0C76C68CF7B19F236426D2CD /* DigitaleKloonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C237C622C997D771343D1 /* DigitaleKloonApp.swift */; };
+		134E40A7CDCDF8E1971EDEAA /* ClipboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA08FC612BA776FAB68AC17 /* ClipboardService.swift */; };
+		207744E3FFD2CCC3CFF79364 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999EBFC58786478E82AAA680 /* SettingsView.swift */; };
+		37A5032811EEF25A05038E97 /* IdentifiableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C86F70C668D2A6FD661055E /* IdentifiableExtensions.swift */; };
+		44D48A58B250037D1B88C212 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341FD8D009C317E246E0189 /* MainTabView.swift */; };
+		529BB263133CF5404025A7FF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C14D6E18FF6A1DC443C44 /* Theme.swift */; };
+		546265DB1E91CF9EEA9E79B0 /* MasterKeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D978E3CA93FA7F837A4279 /* MasterKeyService.swift */; };
+		5842C0709658D11BFD059ABE /* LogsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6EE9A62A6472C026E1719 /* LogsListView.swift */; };
+		5920BC5EB392DC2DCA4E13AD /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2673BD43C56460B5AFC1BFC /* CryptoService.swift */; };
+		5A701ED3FFFA31371D02AB30 /* BiometricGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D97E19DA59A3FADF67856 /* BiometricGate.swift */; };
+		64A49653D1C8A0AC7619069A /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9772C10B5E4C435AE5F437 /* ActivityView.swift */; };
+		65DDDA52AC1B800B3FEDC2F9 /* SecurityState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D05986D2BE4AC0B882F0DA7 /* SecurityState.swift */; };
+		7296BD0ADAE41E7231707ECD /* VaultCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7F9F11CB4DCD20531D4C5 /* VaultCategory.swift */; };
+		733B2EA41A78904544BC9EB4 /* VaultItemFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936A216E5C32A06DC274E775 /* VaultItemFormView.swift */; };
+		7A986D8A5A6D0C7C9336D6AE /* VaultListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96021BB052A3E7BAD3847AB6 /* VaultListView.swift */; };
+		8978E0B83228605EC3C8A67E /* BackupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75F192665A07D747D20238D /* BackupService.swift */; };
+		8C5CA1B0D77264910D236E36 /* SecretField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D64B9A864875830704B122 /* SecretField.swift */; };
+		937541D4492B9A101ECE1FCA /* DigitaleKloonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D5133C4601698C34D5D290 /* DigitaleKloonTests.swift */; };
+		B7B1D0DD2BB5D3D332B86A13 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54CFE5ECEF478DE6A4B9008 /* Models.swift */; };
+		BA540F1988E4AC568627F945 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A6C775D193E157611C3457 /* LockView.swift */; };
+		C2F98C273F70425D59FB04D9 /* SecretStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E498ED39BFE4F4DD2FE3736A /* SecretStore.swift */; };
+		E42732D270426499EA11BE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B69D6018B7BCF939EB0A8F4 /* Assets.xcassets */; };
+		E6E0EDDE769060D8CED5EEC9 /* PasswordGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B40D79FA9587279991B326E /* PasswordGeneratorView.swift */; };
+		E8A2BE469103A52B65BA2969 /* VaultItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2F49C1E14E480ACB57E91 /* VaultItemDetailView.swift */; };
+		F986735357D0717517934A97 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1290BE20F9615C175777327 /* SplashView.swift */; };
+		FFEC329FCC4524BA5D2CB052 /* NotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073AE5BA6BBDE6993A18070 /* NotesListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7B5C04615B8ADD5A4A1BDAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB9D50851088DBB728471E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2ADC9C5951D85C8BAEC14C4;
+			remoteInfo = DigitaleKloon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D978E3CA93FA7F837A4279 /* MasterKeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterKeyService.swift; sourceTree = "<group>"; };
+		1E5D97E19DA59A3FADF67856 /* BiometricGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricGate.swift; sourceTree = "<group>"; };
+		1FF7F9F11CB4DCD20531D4C5 /* VaultCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultCategory.swift; sourceTree = "<group>"; };
+		4B69D6018B7BCF939EB0A8F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CF6EE9A62A6472C026E1719 /* LogsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsListView.swift; sourceTree = "<group>"; };
+		69B971D9D9C6057909CD13E9 /* DigitaleKloonTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DigitaleKloonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B40D79FA9587279991B326E /* PasswordGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGeneratorView.swift; sourceTree = "<group>"; };
+		7D05986D2BE4AC0B882F0DA7 /* SecurityState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityState.swift; sourceTree = "<group>"; };
+		83A6C775D193E157611C3457 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		8C86F70C668D2A6FD661055E /* IdentifiableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableExtensions.swift; sourceTree = "<group>"; };
+		936A216E5C32A06DC274E775 /* VaultItemFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultItemFormView.swift; sourceTree = "<group>"; };
+		94D64B9A864875830704B122 /* SecretField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretField.swift; sourceTree = "<group>"; };
+		96021BB052A3E7BAD3847AB6 /* VaultListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultListView.swift; sourceTree = "<group>"; };
+		999EBFC58786478E82AAA680 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9DE2F49C1E14E480ACB57E91 /* VaultItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultItemDetailView.swift; sourceTree = "<group>"; };
+		A7D5133C4601698C34D5D290 /* DigitaleKloonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitaleKloonTests.swift; sourceTree = "<group>"; };
+		A85C237C622C997D771343D1 /* DigitaleKloonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitaleKloonApp.swift; sourceTree = "<group>"; };
+		AA9772C10B5E4C435AE5F437 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		B54CFE5ECEF478DE6A4B9008 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		BFA08FC612BA776FAB68AC17 /* ClipboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardService.swift; sourceTree = "<group>"; };
+		C073AE5BA6BBDE6993A18070 /* NotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListView.swift; sourceTree = "<group>"; };
+		C1290BE20F9615C175777327 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		C341FD8D009C317E246E0189 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		C75F192665A07D747D20238D /* BackupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupService.swift; sourceTree = "<group>"; };
+		CB4F0EE852F854F6E3E54AEC /* DigitaleKloon.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DigitaleKloon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8C14D6E18FF6A1DC443C44 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		DE1EECF19C36BAE4B1B0D1C8 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
+		E2673BD43C56460B5AFC1BFC /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		E498ED39BFE4F4DD2FE3736A /* SecretStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13D99EC194061029BB3F2A80 /* DigitaleKloon */ = {
+			isa = PBXGroup;
+			children = (
+				C75F192665A07D747D20238D /* BackupService.swift */,
+				A85C237C622C997D771343D1 /* DigitaleKloonApp.swift */,
+				66753F55CA4022FFE61677EE /* App */,
+				41B504C78B608E1F13F77FF7 /* Models */,
+				6BB7F3C225D2BA77D2CFF105 /* Resources */,
+				290B8C3EF66C0D7668E0B200 /* Security */,
+				5442AC27F4F7088020931B1F /* Views */,
+			);
+			path = DigitaleKloon;
+			sourceTree = "<group>";
+		};
+		290B8C3EF66C0D7668E0B200 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				1E5D97E19DA59A3FADF67856 /* BiometricGate.swift */,
+				BFA08FC612BA776FAB68AC17 /* ClipboardService.swift */,
+				E2673BD43C56460B5AFC1BFC /* CryptoService.swift */,
+				08D978E3CA93FA7F837A4279 /* MasterKeyService.swift */,
+				DE1EECF19C36BAE4B1B0D1C8 /* PasswordGenerator.swift */,
+				E498ED39BFE4F4DD2FE3736A /* SecretStore.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		41B504C78B608E1F13F77FF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B54CFE5ECEF478DE6A4B9008 /* Models.swift */,
+				1FF7F9F11CB4DCD20531D4C5 /* VaultCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5442AC27F4F7088020931B1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CF6EE9A62A6472C026E1719 /* LogsListView.swift */,
+				C341FD8D009C317E246E0189 /* MainTabView.swift */,
+				C073AE5BA6BBDE6993A18070 /* NotesListView.swift */,
+				6B40D79FA9587279991B326E /* PasswordGeneratorView.swift */,
+				999EBFC58786478E82AAA680 /* SettingsView.swift */,
+				9DE2F49C1E14E480ACB57E91 /* VaultItemDetailView.swift */,
+				936A216E5C32A06DC274E775 /* VaultItemFormView.swift */,
+				96021BB052A3E7BAD3847AB6 /* VaultListView.swift */,
+				A68FC721ABD1C5988A6B8DD5 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66753F55CA4022FFE61677EE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8C86F70C668D2A6FD661055E /* IdentifiableExtensions.swift */,
+				83A6C775D193E157611C3457 /* LockView.swift */,
+				7D05986D2BE4AC0B882F0DA7 /* SecurityState.swift */,
+				C1290BE20F9615C175777327 /* SplashView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6BB7F3C225D2BA77D2CFF105 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B69D6018B7BCF939EB0A8F4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		86BB084998516317783C7865 = {
+			isa = PBXGroup;
+			children = (
+				13D99EC194061029BB3F2A80 /* DigitaleKloon */,
+				DE9BDA7855E72CD1D915D9B5 /* DigitaleKloonTests */,
+				C609D10EB8C48D257104B268 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A68FC721ABD1C5988A6B8DD5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AA9772C10B5E4C435AE5F437 /* ActivityView.swift */,
+				94D64B9A864875830704B122 /* SecretField.swift */,
+				DA8C14D6E18FF6A1DC443C44 /* Theme.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C609D10EB8C48D257104B268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB4F0EE852F854F6E3E54AEC /* DigitaleKloon.app */,
+				69B971D9D9C6057909CD13E9 /* DigitaleKloonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE9BDA7855E72CD1D915D9B5 /* DigitaleKloonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7D5133C4601698C34D5D290 /* DigitaleKloonTests.swift */,
+			);
+			path = DigitaleKloonTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A81F1CD5530B209D9B331F23 /* DigitaleKloonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE00C079E34A0C8200E6783 /* Build configuration list for PBXNativeTarget "DigitaleKloonTests" */;
+			buildPhases = (
+				61FFC024F5E7EEC9002BD63A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B2DB18323F2EA17CD2AF898 /* PBXTargetDependency */,
+			);
+			name = DigitaleKloonTests;
+			packageProductDependencies = (
+			);
+			productName = DigitaleKloonTests;
+			productReference = 69B971D9D9C6057909CD13E9 /* DigitaleKloonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2ADC9C5951D85C8BAEC14C4 /* DigitaleKloon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803DC14EDE7F8A2A85B4C4A9 /* Build configuration list for PBXNativeTarget "DigitaleKloon" */;
+			buildPhases = (
+				72D284870D9C603A46CE7D2A /* Sources */,
+				D0951D8759045B7A7D7DD7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitaleKloon;
+			packageProductDependencies = (
+			);
+			productName = DigitaleKloon;
+			productReference = CB4F0EE852F854F6E3E54AEC /* DigitaleKloon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB9D50851088DBB728471E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					F2ADC9C5951D85C8BAEC14C4 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A44A82A00379B7B13F4CDDEC /* Build configuration list for PBXProject "DigitaleKloon" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 86BB084998516317783C7865;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C609D10EB8C48D257104B268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2ADC9C5951D85C8BAEC14C4 /* DigitaleKloon */,
+				A81F1CD5530B209D9B331F23 /* DigitaleKloonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0951D8759045B7A7D7DD7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42732D270426499EA11BE3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61FFC024F5E7EEC9002BD63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937541D4492B9A101ECE1FCA /* DigitaleKloonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D284870D9C603A46CE7D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A49653D1C8A0AC7619069A /* ActivityView.swift in Sources */,
+				8978E0B83228605EC3C8A67E /* BackupService.swift in Sources */,
+				5A701ED3FFFA31371D02AB30 /* BiometricGate.swift in Sources */,
+				134E40A7CDCDF8E1971EDEAA /* ClipboardService.swift in Sources */,
+				5920BC5EB392DC2DCA4E13AD /* CryptoService.swift in Sources */,
+				0C76C68CF7B19F236426D2CD /* DigitaleKloonApp.swift in Sources */,
+				37A5032811EEF25A05038E97 /* IdentifiableExtensions.swift in Sources */,
+				BA540F1988E4AC568627F945 /* LockView.swift in Sources */,
+				5842C0709658D11BFD059ABE /* LogsListView.swift in Sources */,
+				44D48A58B250037D1B88C212 /* MainTabView.swift in Sources */,
+				546265DB1E91CF9EEA9E79B0 /* MasterKeyService.swift in Sources */,
+				B7B1D0DD2BB5D3D332B86A13 /* Models.swift in Sources */,
+				FFEC329FCC4524BA5D2CB052 /* NotesListView.swift in Sources */,
+				06890B6E9904FBFA31B869A9 /* PasswordGenerator.swift in Sources */,
+				E6E0EDDE769060D8CED5EEC9 /* PasswordGeneratorView.swift in Sources */,
+				8C5CA1B0D77264910D236E36 /* SecretField.swift in Sources */,
+				C2F98C273F70425D59FB04D9 /* SecretStore.swift in Sources */,
+				65DDDA52AC1B800B3FEDC2F9 /* SecurityState.swift in Sources */,
+				207744E3FFD2CCC3CFF79364 /* SettingsView.swift in Sources */,
+				F986735357D0717517934A97 /* SplashView.swift in Sources */,
+				529BB263133CF5404025A7FF /* Theme.swift in Sources */,
+				7296BD0ADAE41E7231707ECD /* VaultCategory.swift in Sources */,
+				E8A2BE469103A52B65BA2969 /* VaultItemDetailView.swift in Sources */,
+				733B2EA41A78904544BC9EB4 /* VaultItemFormView.swift in Sources */,
+				7A986D8A5A6D0C7C9336D6AE /* VaultListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B2DB18323F2EA17CD2AF898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2ADC9C5951D85C8BAEC14C4 /* DigitaleKloon */;
+			targetProxy = F7B5C04615B8ADD5A4A1BDAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20C73B459905720976D89A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.tiendo.digitalekloon.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitaleKloon.app/DigitaleKloon";
+			};
+			name = Release;
+		};
+		5AE57C212E2BE1F5D017F669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		68A9F3554AB2CEA0A1966ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		AEA5DC69CB1F9818CB42808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Digitale Kloon";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Digitale Kloon gebruikt Face ID om je kluis te vergrendelen en te ontgrendelen.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.tiendo.digitalekloon;
+				PRODUCT_NAME = DigitaleKloon;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BFAFF57FE5CE89724D4423CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.tiendo.digitalekloon.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitaleKloon.app/DigitaleKloon";
+			};
+			name = Debug;
+		};
+		E79D266918D0533BD78F9AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Digitale Kloon";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Digitale Kloon gebruikt Face ID om je kluis te vergrendelen en te ontgrendelen.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.tiendo.digitalekloon;
+				PRODUCT_NAME = DigitaleKloon;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		803DC14EDE7F8A2A85B4C4A9 /* Build configuration list for PBXNativeTarget "DigitaleKloon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA5DC69CB1F9818CB42808D /* Debug */,
+				E79D266918D0533BD78F9AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A44A82A00379B7B13F4CDDEC /* Build configuration list for PBXProject "DigitaleKloon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A9F3554AB2CEA0A1966ED4 /* Debug */,
+				5AE57C212E2BE1F5D017F669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FAE00C079E34A0C8200E6783 /* Build configuration list for PBXNativeTarget "DigitaleKloonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAFF57FE5CE89724D4423CB /* Debug */,
+				20C73B459905720976D89A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB9D50851088DBB728471E6 /* Project object */;
+}

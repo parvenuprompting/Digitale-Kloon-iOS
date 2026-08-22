@@ -1,0 +1,50 @@
+name: DigitaleKloon
+
+options:
+  xcodeVersion: "26.6"
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+
+settings:
+  SWIFT_VERSION: "6.0"
+
+packages: {}
+
+targets:
+  DigitaleKloon:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: DigitaleKloon
+    resources:
+      - path: DigitaleKloon/Resources
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: nl.tiendo.digitalekloon
+      PRODUCT_NAME: DigitaleKloon
+      SWIFT_VERSION: "6.0"
+      TARGETED_DEVICE_FAMILY: "1"
+      GENERATE_INFOPLIST_FILE: YES
+      INFOPLIST_KEY_UILaunchScreen_Generation: YES
+      INFOPLIST_KEY_CFBundleDisplayName: Digitale Kloon
+      INFOPLIST_KEY_NSFaceIDUsageDescription: "Digitale Kloon gebruikt Face ID om je kluis te vergrendelen en te ontgrendelen."
+      INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+      CODE_SIGN_STYLE: Automatic
+    scheme:
+      shared: true
+      testTargets:
+        - DigitaleKloonTests
+
+  DigitaleKloonTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: DigitaleKloonTests
+    dependencies:
+      - target: DigitaleKloon
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: nl.tiendo.digitalekloon.tests
+      SWIFT_VERSION: "6.0"
+      GENERATE_INFOPLIST_FILE: YES
